@@ -45,3 +45,5 @@ When data is in the form of dates, such as schedules, timetables, prices calenda
 | onPanelChange | Callback for when panel changes | function(date: moment, mode: string) | - |
 | onSelect | Callback for when a date is selected | function(date: moment） | - |
 | onChange | Callback for when date changes | function(date: moment） | - |
+| showPreviousNextButtons | Whether to show the navigation buttons to go to the previous or next month/year | bool | false |
+| showTodayButton | Whether to show a button to go to the current day | bool | false |

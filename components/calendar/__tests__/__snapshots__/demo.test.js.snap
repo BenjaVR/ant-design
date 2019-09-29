@@ -8,149 +8,156 @@ exports[`renders ./components/calendar/demo/basic.md correctly 1`] = `
     class="ant-fullcalendar-header"
   >
     <div
-      class="ant-fullcalendar-year-select ant-select ant-select-enabled"
+      class="ant-fullcalendar-header-left-fullscreen"
+    />
+    <div
+      class="ant-fullcalendar-header-right-fullscreen"
     >
       <div
-        aria-autocomplete="list"
-        aria-controls=""
-        aria-expanded="false"
-        aria-haspopup="true"
-        class="ant-select-selection
-            ant-select-selection--single"
-        role="combobox"
-        tabindex="0"
+        class="ant-fullcalendar-year-select ant-select ant-select-enabled"
       >
         <div
-          class="ant-select-selection__rendered"
+          aria-autocomplete="list"
+          aria-controls=""
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="ant-select-selection
+            ant-select-selection--single"
+          role="combobox"
+          tabindex="0"
         >
           <div
-            class="ant-select-selection-selected-value"
-            style="display:block;opacity:1"
-            title="2016"
+            class="ant-select-selection__rendered"
           >
-            2016
-          </div>
-        </div>
-        <span
-          class="ant-select-arrow"
-          style="user-select:none;-webkit-user-select:none"
-          unselectable="on"
-        >
-          <i
-            aria-label="icon: down"
-            class="anticon anticon-down ant-select-arrow-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="down"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <div
+              class="ant-select-selection-selected-value"
+              style="display:block;opacity:1"
+              title="2016"
             >
-              <path
-                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-              />
-            </svg>
-          </i>
-        </span>
+              2016
+            </div>
+          </div>
+          <span
+            class="ant-select-arrow"
+            style="user-select:none;-webkit-user-select:none"
+            unselectable="on"
+          >
+            <i
+              aria-label="icon: down"
+              class="anticon anticon-down ant-select-arrow-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </i>
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      class="ant-fullcalendar-month-select ant-select ant-select-enabled"
-    >
       <div
-        aria-autocomplete="list"
-        aria-controls=""
-        aria-expanded="false"
-        aria-haspopup="true"
-        class="ant-select-selection
-            ant-select-selection--single"
-        role="combobox"
-        tabindex="0"
+        class="ant-fullcalendar-month-select ant-select ant-select-enabled"
       >
         <div
-          class="ant-select-selection__rendered"
+          aria-autocomplete="list"
+          aria-controls=""
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="ant-select-selection
+            ant-select-selection--single"
+          role="combobox"
+          tabindex="0"
         >
           <div
-            class="ant-select-selection-selected-value"
-            style="display:block;opacity:1"
-            title="Nov"
+            class="ant-select-selection__rendered"
           >
-            Nov
-          </div>
-        </div>
-        <span
-          class="ant-select-arrow"
-          style="user-select:none;-webkit-user-select:none"
-          unselectable="on"
-        >
-          <i
-            aria-label="icon: down"
-            class="anticon anticon-down ant-select-arrow-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="down"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <div
+              class="ant-select-selection-selected-value"
+              style="display:block;opacity:1"
+              title="Nov"
             >
-              <path
-                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-              />
-            </svg>
-          </i>
-        </span>
+              Nov
+            </div>
+          </div>
+          <span
+            class="ant-select-arrow"
+            style="user-select:none;-webkit-user-select:none"
+            unselectable="on"
+          >
+            <i
+              aria-label="icon: down"
+              class="anticon anticon-down ant-select-arrow-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </i>
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
-    >
-      <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      <div
+        class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
       >
-        <span
-          class="ant-radio-button ant-radio-button-checked"
+        <label
+          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
         >
-          <input
-            checked=""
-            class="ant-radio-button-input"
-            type="radio"
-            value="month"
-          />
           <span
-            class="ant-radio-button-inner"
-          />
-        </span>
-        <span>
-          Month
-        </span>
-      </label>
-      <label
-        class="ant-radio-button-wrapper"
-      >
-        <span
-          class="ant-radio-button"
+            class="ant-radio-button ant-radio-button-checked"
+          >
+            <input
+              checked=""
+              class="ant-radio-button-input"
+              type="radio"
+              value="month"
+            />
+            <span
+              class="ant-radio-button-inner"
+            />
+          </span>
+          <span>
+            Month
+          </span>
+        </label>
+        <label
+          class="ant-radio-button-wrapper"
         >
-          <input
-            class="ant-radio-button-input"
-            type="radio"
-            value="year"
-          />
           <span
-            class="ant-radio-button-inner"
-          />
-        </span>
-        <span>
-          Year
-        </span>
-      </label>
+            class="ant-radio-button"
+          >
+            <input
+              class="ant-radio-button-input"
+              type="radio"
+              value="year"
+            />
+            <span
+              class="ant-radio-button-inner"
+            />
+          </span>
+          <span>
+            Year
+          </span>
+        </label>
+      </div>
     </div>
   </div>
   <div
@@ -1055,153 +1062,2388 @@ exports[`renders ./components/calendar/demo/card.md correctly 1`] = `
       class="ant-fullcalendar-header"
     >
       <div
-        class="ant-select-sm ant-fullcalendar-year-select ant-select ant-select-enabled"
+        class="ant-fullcalendar-header-left"
+      />
+      <div
+        class="ant-fullcalendar-header-right"
       >
         <div
-          aria-autocomplete="list"
-          aria-controls=""
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="ant-select-selection
-            ant-select-selection--single"
-          role="combobox"
-          tabindex="0"
+          class="ant-select-sm ant-fullcalendar-year-select ant-select ant-select-enabled"
         >
           <div
-            class="ant-select-selection__rendered"
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
           >
             <div
-              class="ant-select-selection-selected-value"
-              style="display:block;opacity:1"
-              title="2016"
+              class="ant-select-selection__rendered"
             >
-              2016
-            </div>
-          </div>
-          <span
-            class="ant-select-arrow"
-            style="user-select:none;-webkit-user-select:none"
-            unselectable="on"
-          >
-            <i
-              aria-label="icon: down"
-              class="anticon anticon-down ant-select-arrow-icon"
-            >
-              <svg
-                aria-hidden="true"
-                class=""
-                data-icon="down"
-                fill="currentColor"
-                focusable="false"
-                height="1em"
-                viewBox="64 64 896 896"
-                width="1em"
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="2016"
               >
-                <path
-                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-                />
-              </svg>
-            </i>
-          </span>
+                2016
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div
-        class="ant-select-sm ant-fullcalendar-month-select ant-select ant-select-enabled"
-      >
         <div
-          aria-autocomplete="list"
-          aria-controls=""
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="ant-select-selection
-            ant-select-selection--single"
-          role="combobox"
-          tabindex="0"
+          class="ant-select-sm ant-fullcalendar-month-select ant-select ant-select-enabled"
         >
           <div
-            class="ant-select-selection__rendered"
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
           >
             <div
-              class="ant-select-selection-selected-value"
-              style="display:block;opacity:1"
-              title="Nov"
+              class="ant-select-selection__rendered"
             >
-              Nov
-            </div>
-          </div>
-          <span
-            class="ant-select-arrow"
-            style="user-select:none;-webkit-user-select:none"
-            unselectable="on"
-          >
-            <i
-              aria-label="icon: down"
-              class="anticon anticon-down ant-select-arrow-icon"
-            >
-              <svg
-                aria-hidden="true"
-                class=""
-                data-icon="down"
-                fill="currentColor"
-                focusable="false"
-                height="1em"
-                viewBox="64 64 896 896"
-                width="1em"
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="Nov"
               >
-                <path
-                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-                />
-              </svg>
-            </i>
-          </span>
+                Nov
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div
-        class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
-      >
-        <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        <div
+          class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
         >
-          <span
-            class="ant-radio-button ant-radio-button-checked"
+          <label
+            class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
           >
-            <input
-              checked=""
-              class="ant-radio-button-input"
-              type="radio"
-              value="month"
-            />
             <span
-              class="ant-radio-button-inner"
-            />
-          </span>
-          <span>
-            Month
-          </span>
-        </label>
-        <label
-          class="ant-radio-button-wrapper"
-        >
-          <span
-            class="ant-radio-button"
+              class="ant-radio-button ant-radio-button-checked"
+            >
+              <input
+                checked=""
+                class="ant-radio-button-input"
+                type="radio"
+                value="month"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Month
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
           >
-            <input
-              class="ant-radio-button-input"
-              type="radio"
-              value="year"
-            />
             <span
-              class="ant-radio-button-inner"
-            />
-          </span>
-          <span>
-            Year
-          </span>
-        </label>
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="year"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Year
+            </span>
+          </label>
+        </div>
       </div>
     </div>
     <div
       class="ant-fullcalendar ant-fullcalendar-full"
+      tabindex="0"
+    >
+      <div
+        class="ant-fullcalendar-calendar-body"
+      >
+        <table
+          cellspacing="0"
+          class="ant-fullcalendar-table"
+          role="grid"
+        >
+          <thead>
+            <tr
+              role="row"
+            >
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Sun"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Su
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Mon"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Mo
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Tue"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Tu
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Wed"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  We
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Thu"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Th
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Fri"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Fr
+                </span>
+              </th>
+              <th
+                class="ant-fullcalendar-column-header"
+                role="columnheader"
+                title="Sat"
+              >
+                <span
+                  class="ant-fullcalendar-column-header-inner"
+                >
+                  Sa
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="ant-fullcalendar-tbody"
+          >
+            <tr
+              class=""
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell"
+                role="gridcell"
+                title="October 30, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    30
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell ant-fullcalendar-last-day-of-month"
+                role="gridcell"
+                title="October 31, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    31
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 1, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    01
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 2, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    02
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 3, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    03
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 4, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    04
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 5, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    05
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 6, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    06
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 7, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    07
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 8, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    08
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 9, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    09
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 10, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    10
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 11, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    11
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 12, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    12
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 13, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    13
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 14, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    14
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 15, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    15
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 16, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    16
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 17, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    17
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 18, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    18
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 19, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    19
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 20, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    20
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 21, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    21
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-today ant-fullcalendar-selected-day"
+                role="gridcell"
+                title="November 22, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    22
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 23, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    23
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 24, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    24
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 25, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    25
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 26, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    26
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 27, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    27
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 28, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    28
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell"
+                role="gridcell"
+                title="November 29, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    29
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-last-day-of-month"
+                role="gridcell"
+                title="November 30, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    30
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 1, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    01
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 2, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    02
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 3, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    03
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr
+              class=""
+              role="row"
+            >
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 4, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    04
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 5, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    05
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 6, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    06
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 7, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    07
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 8, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    08
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 9, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    09
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+              <td
+                class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                role="gridcell"
+                title="December 10, 2016"
+              >
+                <div
+                  class="ant-fullcalendar-date"
+                >
+                  <div
+                    class="ant-fullcalendar-value"
+                  >
+                    10
+                  </div>
+                  <div
+                    class="ant-fullcalendar-content"
+                  />
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/calendar/demo/navigation-controls.md correctly 1`] = `
+<div>
+  <div
+    style="width:300px;border:1px solid #d9d9d9;border-radius:4px;margin:10px 0"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="ant-fullcalendar-header"
+      >
+        <div
+          class="ant-fullcalendar-header-left"
+        >
+          <div
+            class="ant-btn-group ant-btn-group-sm ant-fullcalendar-navigation"
+          >
+            <button
+              class="ant-btn ant-fullcalendar-navigation-previous ant-btn-icon-only"
+              type="button"
+            >
+              <i
+                aria-label="icon: left"
+                class="anticon anticon-left"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="left"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                  />
+                </svg>
+              </i>
+            </button>
+            <button
+              class="ant-btn ant-fullcalendar-navigation-next ant-btn-icon-only"
+              type="button"
+            >
+              <i
+                aria-label="icon: right"
+                class="anticon anticon-right"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="right"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                  />
+                </svg>
+              </i>
+            </button>
+          </div>
+          <button
+            class="ant-btn ant-fullcalendar-today-button ant-btn-sm"
+            type="button"
+          >
+            <span>
+              Today
+            </span>
+          </button>
+        </div>
+        <div
+          class="ant-fullcalendar-header-right"
+        >
+          <div
+            class="ant-select-sm ant-fullcalendar-year-select ant-select ant-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-controls=""
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="ant-select-selection
+            ant-select-selection--single"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="ant-select-selection__rendered"
+              >
+                <div
+                  class="ant-select-selection-selected-value"
+                  style="display:block;opacity:1"
+                  title="2016"
+                >
+                  2016
+                </div>
+              </div>
+              <span
+                class="ant-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="on"
+              >
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down ant-select-arrow-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </span>
+            </div>
+          </div>
+          <div
+            class="ant-select-sm ant-fullcalendar-month-select ant-select ant-select-enabled"
+          >
+            <div
+              aria-autocomplete="list"
+              aria-controls=""
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="ant-select-selection
+            ant-select-selection--single"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="ant-select-selection__rendered"
+              >
+                <div
+                  class="ant-select-selection-selected-value"
+                  style="display:block;opacity:1"
+                  title="Nov"
+                >
+                  Nov
+                </div>
+              </div>
+              <span
+                class="ant-select-arrow"
+                style="user-select:none;-webkit-user-select:none"
+                unselectable="on"
+              >
+                <i
+                  aria-label="icon: down"
+                  class="anticon anticon-down ant-select-arrow-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class=""
+                    data-icon="down"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                    />
+                  </svg>
+                </i>
+              </span>
+            </div>
+          </div>
+          <div
+            class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
+          >
+            <label
+              class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+            >
+              <span
+                class="ant-radio-button ant-radio-button-checked"
+              >
+                <input
+                  checked=""
+                  class="ant-radio-button-input"
+                  type="radio"
+                  value="month"
+                />
+                <span
+                  class="ant-radio-button-inner"
+                />
+              </span>
+              <span>
+                Month
+              </span>
+            </label>
+            <label
+              class="ant-radio-button-wrapper"
+            >
+              <span
+                class="ant-radio-button"
+              >
+                <input
+                  class="ant-radio-button-input"
+                  type="radio"
+                  value="year"
+                />
+                <span
+                  class="ant-radio-button-inner"
+                />
+              </span>
+              <span>
+                Year
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-fullcalendar ant-fullcalendar-full"
+        tabindex="0"
+      >
+        <div
+          class="ant-fullcalendar-calendar-body"
+        >
+          <table
+            cellspacing="0"
+            class="ant-fullcalendar-table"
+            role="grid"
+          >
+            <thead>
+              <tr
+                role="row"
+              >
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Sun"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Su
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Mon"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Mo
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Tue"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Tu
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Wed"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    We
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Thu"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Th
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Fri"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Fr
+                  </span>
+                </th>
+                <th
+                  class="ant-fullcalendar-column-header"
+                  role="columnheader"
+                  title="Sat"
+                >
+                  <span
+                    class="ant-fullcalendar-column-header-inner"
+                  >
+                    Sa
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="ant-fullcalendar-tbody"
+            >
+              <tr
+                class=""
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell"
+                  role="gridcell"
+                  title="October 30, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      30
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell ant-fullcalendar-last-day-of-month"
+                  role="gridcell"
+                  title="October 31, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      31
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 1, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      01
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 2, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      02
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 3, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      03
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 4, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      04
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 5, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      05
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class=""
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 6, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      06
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 7, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      07
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 8, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      08
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 9, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      09
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 10, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      10
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 11, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      11
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 12, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      12
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class=""
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 13, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      13
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 14, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      14
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 15, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      15
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 16, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      16
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 17, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      17
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 18, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      18
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 19, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      19
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 20, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      20
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 21, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      21
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-today ant-fullcalendar-selected-day"
+                  role="gridcell"
+                  title="November 22, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      22
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 23, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      23
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 24, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      24
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 25, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      25
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 26, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      26
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class=""
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 27, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      27
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 28, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      28
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell"
+                  role="gridcell"
+                  title="November 29, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      29
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-last-day-of-month"
+                  role="gridcell"
+                  title="November 30, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      30
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 1, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      01
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 2, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      02
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 3, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      03
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class=""
+                role="row"
+              >
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 4, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      04
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 5, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      05
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 6, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      06
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 7, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      07
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 8, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      08
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 9, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      09
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+                <td
+                  class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                  role="gridcell"
+                  title="December 10, 2016"
+                >
+                  <div
+                    class="ant-fullcalendar-date"
+                  >
+                    <div
+                      class="ant-fullcalendar-value"
+                    >
+                      10
+                    </div>
+                    <div
+                      class="ant-fullcalendar-content"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div
+    class=" ant-fullcalendar-fullscreen"
+  >
+    <div
+      class="ant-fullcalendar-header"
+    >
+      <div
+        class="ant-fullcalendar-header-left-fullscreen"
+      >
+        <div
+          class="ant-btn-group ant-fullcalendar-navigation"
+        >
+          <button
+            class="ant-btn ant-fullcalendar-navigation-previous ant-btn-icon-only"
+            type="button"
+          >
+            <i
+              aria-label="icon: left"
+              class="anticon anticon-left"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="left"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                />
+              </svg>
+            </i>
+          </button>
+          <button
+            class="ant-btn ant-fullcalendar-navigation-next ant-btn-icon-only"
+            type="button"
+          >
+            <i
+              aria-label="icon: right"
+              class="anticon anticon-right"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                />
+              </svg>
+            </i>
+          </button>
+        </div>
+        <button
+          class="ant-btn ant-fullcalendar-today-button"
+          type="button"
+        >
+          <span>
+            Today
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-fullcalendar-header-right-fullscreen"
+      >
+        <div
+          class="ant-fullcalendar-year-select ant-select ant-select-enabled"
+        >
+          <div
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
+          >
+            <div
+              class="ant-select-selection__rendered"
+            >
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="2016"
+              >
+                2016
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="ant-fullcalendar-month-select ant-select ant-select-enabled"
+        >
+          <div
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
+          >
+            <div
+              class="ant-select-selection__rendered"
+            >
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="Nov"
+              >
+                Nov
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
+        >
+          <label
+            class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+          >
+            <span
+              class="ant-radio-button ant-radio-button-checked"
+            >
+              <input
+                checked=""
+                class="ant-radio-button-input"
+                type="radio"
+                value="month"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Month
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="year"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Year
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-fullcalendar ant-fullcalendar-full ant-fullcalendar-fullscreen"
       tabindex="0"
     >
       <div
@@ -2100,149 +4342,156 @@ exports[`renders ./components/calendar/demo/notice-calendar.md correctly 1`] = `
     class="ant-fullcalendar-header"
   >
     <div
-      class="ant-fullcalendar-year-select ant-select ant-select-enabled"
+      class="ant-fullcalendar-header-left-fullscreen"
+    />
+    <div
+      class="ant-fullcalendar-header-right-fullscreen"
     >
       <div
-        aria-autocomplete="list"
-        aria-controls=""
-        aria-expanded="false"
-        aria-haspopup="true"
-        class="ant-select-selection
-            ant-select-selection--single"
-        role="combobox"
-        tabindex="0"
+        class="ant-fullcalendar-year-select ant-select ant-select-enabled"
       >
         <div
-          class="ant-select-selection__rendered"
+          aria-autocomplete="list"
+          aria-controls=""
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="ant-select-selection
+            ant-select-selection--single"
+          role="combobox"
+          tabindex="0"
         >
           <div
-            class="ant-select-selection-selected-value"
-            style="display:block;opacity:1"
-            title="2016"
+            class="ant-select-selection__rendered"
           >
-            2016
-          </div>
-        </div>
-        <span
-          class="ant-select-arrow"
-          style="user-select:none;-webkit-user-select:none"
-          unselectable="on"
-        >
-          <i
-            aria-label="icon: down"
-            class="anticon anticon-down ant-select-arrow-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="down"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <div
+              class="ant-select-selection-selected-value"
+              style="display:block;opacity:1"
+              title="2016"
             >
-              <path
-                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-              />
-            </svg>
-          </i>
-        </span>
+              2016
+            </div>
+          </div>
+          <span
+            class="ant-select-arrow"
+            style="user-select:none;-webkit-user-select:none"
+            unselectable="on"
+          >
+            <i
+              aria-label="icon: down"
+              class="anticon anticon-down ant-select-arrow-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </i>
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      class="ant-fullcalendar-month-select ant-select ant-select-enabled"
-    >
       <div
-        aria-autocomplete="list"
-        aria-controls=""
-        aria-expanded="false"
-        aria-haspopup="true"
-        class="ant-select-selection
-            ant-select-selection--single"
-        role="combobox"
-        tabindex="0"
+        class="ant-fullcalendar-month-select ant-select ant-select-enabled"
       >
         <div
-          class="ant-select-selection__rendered"
+          aria-autocomplete="list"
+          aria-controls=""
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="ant-select-selection
+            ant-select-selection--single"
+          role="combobox"
+          tabindex="0"
         >
           <div
-            class="ant-select-selection-selected-value"
-            style="display:block;opacity:1"
-            title="Nov"
+            class="ant-select-selection__rendered"
           >
-            Nov
-          </div>
-        </div>
-        <span
-          class="ant-select-arrow"
-          style="user-select:none;-webkit-user-select:none"
-          unselectable="on"
-        >
-          <i
-            aria-label="icon: down"
-            class="anticon anticon-down ant-select-arrow-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="down"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <div
+              class="ant-select-selection-selected-value"
+              style="display:block;opacity:1"
+              title="Nov"
             >
-              <path
-                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-              />
-            </svg>
-          </i>
-        </span>
+              Nov
+            </div>
+          </div>
+          <span
+            class="ant-select-arrow"
+            style="user-select:none;-webkit-user-select:none"
+            unselectable="on"
+          >
+            <i
+              aria-label="icon: down"
+              class="anticon anticon-down ant-select-arrow-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </i>
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
-    >
-      <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      <div
+        class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
       >
-        <span
-          class="ant-radio-button ant-radio-button-checked"
+        <label
+          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
         >
-          <input
-            checked=""
-            class="ant-radio-button-input"
-            type="radio"
-            value="month"
-          />
           <span
-            class="ant-radio-button-inner"
-          />
-        </span>
-        <span>
-          Month
-        </span>
-      </label>
-      <label
-        class="ant-radio-button-wrapper"
-      >
-        <span
-          class="ant-radio-button"
+            class="ant-radio-button ant-radio-button-checked"
+          >
+            <input
+              checked=""
+              class="ant-radio-button-input"
+              type="radio"
+              value="month"
+            />
+            <span
+              class="ant-radio-button-inner"
+            />
+          </span>
+          <span>
+            Month
+          </span>
+        </label>
+        <label
+          class="ant-radio-button-wrapper"
         >
-          <input
-            class="ant-radio-button-input"
-            type="radio"
-            value="year"
-          />
           <span
-            class="ant-radio-button-inner"
-          />
-        </span>
-        <span>
-          Year
-        </span>
-      </label>
+            class="ant-radio-button"
+          >
+            <input
+              class="ant-radio-button-input"
+              type="radio"
+              value="year"
+            />
+            <span
+              class="ant-radio-button-inner"
+            />
+          </span>
+          <span>
+            Year
+          </span>
+        </label>
+      </div>
     </div>
   </div>
   <div
@@ -3555,149 +5804,156 @@ exports[`renders ./components/calendar/demo/select.md correctly 1`] = `
       class="ant-fullcalendar-header"
     >
       <div
-        class="ant-fullcalendar-year-select ant-select ant-select-enabled"
+        class="ant-fullcalendar-header-left-fullscreen"
+      />
+      <div
+        class="ant-fullcalendar-header-right-fullscreen"
       >
         <div
-          aria-autocomplete="list"
-          aria-controls=""
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="ant-select-selection
-            ant-select-selection--single"
-          role="combobox"
-          tabindex="0"
+          class="ant-fullcalendar-year-select ant-select ant-select-enabled"
         >
           <div
-            class="ant-select-selection__rendered"
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
           >
             <div
-              class="ant-select-selection-selected-value"
-              style="display:block;opacity:1"
-              title="2017"
+              class="ant-select-selection__rendered"
             >
-              2017
-            </div>
-          </div>
-          <span
-            class="ant-select-arrow"
-            style="user-select:none;-webkit-user-select:none"
-            unselectable="on"
-          >
-            <i
-              aria-label="icon: down"
-              class="anticon anticon-down ant-select-arrow-icon"
-            >
-              <svg
-                aria-hidden="true"
-                class=""
-                data-icon="down"
-                fill="currentColor"
-                focusable="false"
-                height="1em"
-                viewBox="64 64 896 896"
-                width="1em"
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="2017"
               >
-                <path
-                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-                />
-              </svg>
-            </i>
-          </span>
+                2017
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div
-        class="ant-fullcalendar-month-select ant-select ant-select-enabled"
-      >
         <div
-          aria-autocomplete="list"
-          aria-controls=""
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="ant-select-selection
-            ant-select-selection--single"
-          role="combobox"
-          tabindex="0"
+          class="ant-fullcalendar-month-select ant-select ant-select-enabled"
         >
           <div
-            class="ant-select-selection__rendered"
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-select-selection
+            ant-select-selection--single"
+            role="combobox"
+            tabindex="0"
           >
             <div
-              class="ant-select-selection-selected-value"
-              style="display:block;opacity:1"
-              title="Jan"
+              class="ant-select-selection__rendered"
             >
-              Jan
-            </div>
-          </div>
-          <span
-            class="ant-select-arrow"
-            style="user-select:none;-webkit-user-select:none"
-            unselectable="on"
-          >
-            <i
-              aria-label="icon: down"
-              class="anticon anticon-down ant-select-arrow-icon"
-            >
-              <svg
-                aria-hidden="true"
-                class=""
-                data-icon="down"
-                fill="currentColor"
-                focusable="false"
-                height="1em"
-                viewBox="64 64 896 896"
-                width="1em"
+              <div
+                class="ant-select-selection-selected-value"
+                style="display:block;opacity:1"
+                title="Jan"
               >
-                <path
-                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
-                />
-              </svg>
-            </i>
-          </span>
+                Jan
+              </div>
+            </div>
+            <span
+              class="ant-select-arrow"
+              style="user-select:none;-webkit-user-select:none"
+              unselectable="on"
+            >
+              <i
+                aria-label="icon: down"
+                class="anticon anticon-down ant-select-arrow-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div
-        class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
-      >
-        <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        <div
+          class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
         >
-          <span
-            class="ant-radio-button ant-radio-button-checked"
+          <label
+            class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
           >
-            <input
-              checked=""
-              class="ant-radio-button-input"
-              type="radio"
-              value="month"
-            />
             <span
-              class="ant-radio-button-inner"
-            />
-          </span>
-          <span>
-            Month
-          </span>
-        </label>
-        <label
-          class="ant-radio-button-wrapper"
-        >
-          <span
-            class="ant-radio-button"
+              class="ant-radio-button ant-radio-button-checked"
+            >
+              <input
+                checked=""
+                class="ant-radio-button-input"
+                type="radio"
+                value="month"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Month
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
           >
-            <input
-              class="ant-radio-button-input"
-              type="radio"
-              value="year"
-            />
             <span
-              class="ant-radio-button-inner"
-            />
-          </span>
-          <span>
-            Year
-          </span>
-        </label>
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="year"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              Year
+            </span>
+          </label>
+        </div>
       </div>
     </div>
     <div

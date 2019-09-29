@@ -1,8 +1,11 @@
 import * as React from 'react';
-import * as moment from 'moment';
+import moment from 'moment';
 import Select from '../select';
-import { Group, Button, RadioChangeEvent } from '../radio';
+import { Button as RadioButton, Group, RadioChangeEvent } from '../radio';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
+import { CalendarMode } from './index';
+import Button from '../button';
+
 const Option = Select.Option;
 
 export interface HeaderProps {
@@ -16,6 +19,8 @@ export interface HeaderProps {
   onTypeChange?: (type: string) => void;
   value: any;
   validRange?: [moment.Moment, moment.Moment];
+  showPreviousNextButtons?: boolean;
+  showTodayButton?: boolean;
 }
 
 export default class Header extends React.Component<HeaderProps, any> {
@@ -135,31 +140,99 @@ export default class Header extends React.Component<HeaderProps, any> {
     }
   };
 
+  onTodayClicked = () => {
+    const { onValueChange } = this.props;
+    if (onValueChange) {
+      const today = moment();
+      onValueChange(today);
+    }
+  };
+
+  onPreviousClicked = () => {
+    this.handlePreviousOrNextClicked('previous');
+  };
+
+  onNextClicked = () => {
+    this.handlePreviousOrNextClicked('next');
+  };
+
+  handlePreviousOrNextClicked = (direction: 'previous' | 'next') => {
+    const { onValueChange, type } = this.props;
+    const mode = type as CalendarMode;
+    const newValue = this.props.value.clone() as moment.Moment;
+    const momentUnit = mode === 'month' ? 'month' : 'year';
+    if (direction === 'previous') {
+      newValue.subtract(1, momentUnit);
+    } else {
+      newValue.add(1, momentUnit);
+    }
+    if (onValueChange) {
+      onValueChange(newValue);
+    }
+  };
+
   getCalenderHeaderNode = (node: HTMLDivElement) => {
     this.calenderHeaderNode = node;
   };
 
+  getCalendarNavigationButtonElement = (prefixCls: string, size: 'default' | 'small') => {
+    return (
+      <Button.Group size={size} className={`${prefixCls}-navigation`}>
+        <Button
+          icon="left"
+          onClick={this.onPreviousClicked}
+          className={`${prefixCls}-navigation-previous`}
+        />
+        <Button
+          icon="right"
+          onClick={this.onNextClicked}
+          className={`${prefixCls}-navigation-next`}
+        />
+      </Button.Group>
+    );
+  };
+
+  getTodayButtonElement = (prefixCls: string, locale: any, size: 'default' | 'small') => {
+    return (
+      <Button size={size} onClick={this.onTodayClicked} className={`${prefixCls}-today-button`}>
+        {locale.today}
+      </Button>
+    );
+  };
+
   renderHeader = ({ getPrefixCls }: ConfigConsumerProps) => {
-    const { prefixCls: customizePrefixCls, type, value, locale, fullscreen } = this.props;
+    const { prefixCls: customizePrefixCls, type, value, locale, fullscreen, showPreviousNextButtons, showTodayButton } = this.props;
     const prefixCls = getPrefixCls('fullcalendar', customizePrefixCls);
+    const size = fullscreen ? 'default' : 'small';
     const yearSelect = this.getYearSelectElement(prefixCls, value.year());
     const monthSelect =
       type === 'month'
         ? this.getMonthSelectElement(prefixCls, value.month(), this.getMonthsLocale(value))
         : null;
-    const size = fullscreen ? 'default' : 'small';
+    const navigationButtons =
+      showPreviousNextButtons === true
+        ? this.getCalendarNavigationButtonElement(prefixCls, size)
+        : null;
+    const todayButton =
+      showTodayButton === true ? this.getTodayButtonElement(prefixCls, locale, size) : null;
     const typeSwitch = (
       <Group onChange={this.onTypeChange} value={type} size={size}>
-        <Button value="month">{locale.month}</Button>
-        <Button value="year">{locale.year}</Button>
+        <RadioButton value="month">{locale.month}</RadioButton>
+        <RadioButton value="year">{locale.year}</RadioButton>
       </Group>
     );
 
     return (
       <div className={`${prefixCls}-header`} ref={this.getCalenderHeaderNode}>
-        {yearSelect}
-        {monthSelect}
-        {typeSwitch}
+        <div className={fullscreen ? `${prefixCls}-header-left-fullscreen` : `${prefixCls}-header-left`}>
+          {navigationButtons}
+          {todayButton}
+        </div>
+        <div className={fullscreen ? `${prefixCls}-header-right-fullscreen` : `${prefixCls}-header-right`}>
+          {yearSelect}
+          {monthSelect}
+          {typeSwitch}
+        </div>
       </div>
     );
   };

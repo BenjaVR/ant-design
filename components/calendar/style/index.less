@@ -27,8 +27,27 @@
   }
 
   &-header {
-    padding: 11px 16px 11px 0;
-    text-align: right;
+    .clearfix();
+    padding: 11px 16px;
+
+    &-left, &-right {
+      margin: 4px 0;
+      display: block;
+      width: 100%;
+      text-align: right;
+    }
+
+    &-left-fullscreen {
+      float: left;
+    }
+
+    &-right-fullscreen {
+      float: right;
+    }
+
+    .@{full-calendar-prefix-cls}-navigation {
+      margin-right: 8px;
+    }
 
     .@{ant-prefix}-select-dropdown {
       text-align: left;
@@ -83,6 +102,7 @@
     padding: 0;
     line-height: 18px;
     text-align: center;
+
     .@{full-calendar-prefix-cls}-column-header-inner {
       display: block;
       font-weight: normal;
@@ -179,6 +199,7 @@
     .@{ant-prefix}-radio-group {
       margin-left: 16px;
     }
+
     label.@{ant-prefix}-radio-button {
       height: @input-height-base;
       line-height: @input-height-base - 2px;
